@@ -1,0 +1,128 @@
+2004-12-31
+deadlycobra-0.7.0
+*implemented multiplayer support!
+*fixed the timing of the move functions
+*added a thread to handle controls
+*lowered CPU usage from ~99% -> ~1%
+*new graphics created
+*added new music created exclusively for DC
+*added _working_ tail
+*added the digestion of an eaten man
+*revamped screen layout
+*main menu is much more interactive
+*obstacle arangement changes on every level change
+*added more diversity between difficulty levels
+*difficulty level increases after every 3 levels completed
+*added key to save a screen shot (F12)
+*increased score to 4 digits
+*removed the ability for men to jump and avoid being
+	eaten since many people thought it was a bug
+*added sound effects
+*added invulnerability period with blinking
+*added "Longest Snake" mode
+*2 years worth of misc changes, updates and minor fixes
+
+
+2003-01-25
+deadlycobra-0.6.2
+*control system re-written, all control responses seem perfect.
+*splash screen revamped
+*high score displayed on splash screen
+*user can choose difficulty on startup
+*fixed segfault problem when eating men on the right border of game field
+*added quit confirm dialog
+
+2002-04-20
+deadlycobra-0.6.1
+*score system re-written
+*high score save
+
+2002-03-07
+deadlycobra-0.6.0
+*Huge speed increases (changes on how map is drawn)
+*Fixed pause button; added unpause button ("u")
+
+2002-03-05
+deadlycobra-0.5.5
+*added mute button for sound.  press 'm' in game
+*added 10 sec pause. press 'p' in game
+*tweaked movement
+
+2002-03-04
+deadlycobra-0.5.4
+*genero ambient sound created
+note: you'll need SDL_mixer now
+
+2002-03-03
+deadlycobra-0.5.2
+*fixed segfault when score was xx9 and you ate a skinny man.
+*added restart feature with ULTRA cheese-o graphic
+
+2002-03-01
+deadlycobra-0.5.0
+*graphics slighly changed
+*controls fixed!  you can now maneuver the snake perfectly! (.... i wish)
+*slight updates/cleanups
+
+2001-12-08
+deadlycobra-0.4.2
+*Men switch type when eaten.
+*Game exits properly.
+
+2001-12-01
+deadlycobra-0.4.0
+*Contest release.
+*Levels created.
+*graphics totally redone.
+*Eat yourself and die.
+*Code speed-ups
+*Lots more, play and see.
+*Messy code/variables. (j/k)
+
+2001-12-01
+deadlycobra-0.3.0
+
+
+2001-11-30
+deadlycobra-0.2.0
+*ALOT HAS CHANGED!
+*Snake grows when he eats a man.
+*Lives feature implemented.
+*Basis for placed (not random) obstacles ''started''.
+*Fixed snake vs screen dimensions.
+*Fixed background.
+*Fixed ''Snap Back & Kill Yourself Bug'' (SBAKYB).
+*Anything else I forgot. Its 2am, i got no sleep last night,
+ I have to work in the morning and the deadline for the contest
+ is tomorrow!
+
+2001-11-27
+deadlycobra-0.1.0
+
+*Tileset Background
+*Obstacles (rocks)
+*Multiple men onscreen
+*basic scoring system
+
+2001-11-20
+deadlycobra-0.0.3
+
+*New design graphics!
+*Target (men) now implemented
+*screen dimensions changed
+*gameover code started
+
+
+2001-11-14
+deadlycobra-0.0.2
+
+*Controls are now working!
+*Base graphics are being used.
+*Revolutionized the general code base.
+
+
+2001-11-05
+deadlycobra-0.0.1
+
+*First official release. 
+*Screen is drawn, line manuevers around the screen.

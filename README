@@ -1,0 +1,89 @@
+DEADLYCOBRA 0.7.0 (http://deadlycobra.sf.net)
+
+
+Authors:
+--------
+concept/code: outbak, DrZaiusX11
+code submission: Mr Noonan
+artwork: DrZaiusX11
+music: Cem Kaan
+Wii porting: Oibaf
+
+
+
+Compiling Notes:
+----------------
+Compiled and tested with: 
+gcc 3.2.2
+SDL 1.2.7 [http://www.libsdl.org]
+SDL_image 1.2.3 [http://www.libsdl.org/projects/SDL_image]
+SDL_mixer 1.2.5 [http://www.libsdl.org/projects/SDL_mixer]
+
+
+General:
+--------
+
+Deadly Cobra is an SDL-based game similar in gameplay to the classic
+Nibbles or snake game. Basically the point of the game is to eat as many 
+pebbles (in our case "Men") as possible without eating yourself or 
+hitting a wall.  Features include both single and multiplayer modes,
+cool 2-D graphics and energizing music for each level.
+
+This project was originally designed to compete in No Starch Press's
+game cometition, but has continued to evolve and grow beyond the
+December 1st 2001 deadline.
+
+From its conception DeadlyCobra has been designed with simplicity and
+size in mind. We have kept the design simple, so it should never have
+to be much larger than 1 MB.
+
+If you would like to join our developement team or you just wish to
+contribute to the project, just send us an email with your code changes,
+suggestions,etc.
+
+
+Play Notes:
+-----------
+*Controls:
+	Arrows move snake 1
+	ASDF move snake 2
+	Escape ends the game
+	F12 takes a screen shot
+	"m" toggles the sound
+	"P" pauses the game
+	"r" resumes the game
+*Points: 
+	Fat Men = 4 
+	Random Confused Men = 3
+	Skinny Men = 2
+	Sentry Targets = 1
+
+Adventure Mode 1P
+*50 points needed to advance to the next level.
+*3 lives per game, +1 for every 3 levels completed (max 9 lives).
+*Difficulty is increased by +1 for every 3 levels completed (max difficulty 9).
+*Difficulty levels affect speed, obstacles, quantity of men & length of snake.
+*Beating Adventure Mode is possible.
+
+Longest Snake Mode 1P
+*Only sentries appear.
+*1 life per game.
+*Difficulty levels only affect speed.
+
+H2H Delayed Respawn 2P
+*2 player simultaneous mode.
+*When a player dies, he will not respawn until the next level or when the other snake dies.
+*3 lives per game.
+*Difficulty levels affect speed, obstacles, quantity of men & length of snake.
+
+H2H Instant Respawn 2P
+*2 player simultaneous mode.
+*When a player dies, he will respawn immediatly.
+*3 lives per game.
+*Difficulty levels affect speed, obstacles, quantity of men & length of snake.
+
+
+Install Notes:
+-------------
+Just run configure/make in root-project directory, cd to src and run ./deadlycobra
+Note: make install doesn't work.

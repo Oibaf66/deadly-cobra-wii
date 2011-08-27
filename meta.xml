@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+  <app version="1">
+    <name>Deadly Cobra Wii</name>
+    <coder>Oibaf</coder>
+    <version>1.0</version>
+    <release_date>20110827</release_date>
+    <short_description>Arcade Game</short_description>
+    <long_description>Deadly Cobra is an SDL-based game similar in gameplay to the classic Nibbles or snake game.
+Basically the point of the game is to eat as many  pebbles (in our case "Men") as possible without eating yourself or hitting a wall.
+Features include both single and multiplayer modes, cool 2-D graphics and energizing music for each level.
+
+USAGE
+-----------
+*Controls:
+- Arrows and WPAD 1 (Wiimote, Nunchuck or Classic Controller) move snake 1
+- WASD and WPAD 2 (Wiimote, Nunchuck or Classic Controller) move snake 2
+- Escape / Home ends the game
+- F12 takes a screen shot
+- "m" / Minus toggles the sound
+- "P" / Plus pauses the game
+- "r" /Plus resumes the game
+
+*Points: 
+- Fat Men = 4 
+- Random Confused Men = 3
+- Skinny Men = 2
+- Sentry Targets = 1
+
+*Adventure Mode 1P
+- 50 points needed to advance to the next level.
+- 3 lives per game, +1 for every 3 levels completed (max 9 lives).
+- Difficulty is increased by +1 for every 3 levels completed (max difficulty 9).
+- Difficulty levels affect speed, obstacles, quantity of men and length of snake.
+- Beating Adventure Mode is possible.
+
+*Longest Snake Mode 1P
+- Only sentries appear.
+- 1 life per game.
+- Difficulty levels only affect speed.
+
+*H2H Delayed Respawn 2P
+- 2 player simultaneous mode.
+- When a player dies, he will not respawn until the next level or when the other snake dies.
+- 3 lives per game.
+- Difficulty levels affect speed, obstacles, quantity of men and length of snake.
+
+*H2H Instant Respawn 2P
+- 2 player simultaneous mode.
+- When a player dies, he will respawn immediatly.
+- 3 lives per game.
+- Difficulty levels affect speed, obstacles, quantity of men and length of snake.
+
+Authors:
+--------
+concept/code: outbak, DrZaiusX11
+code submission: Mr Noonan
+artwork: DrZaiusX11
+music: Cem Kaan
+Wii porting: Oibaf
+</long_description>
+  </app>
